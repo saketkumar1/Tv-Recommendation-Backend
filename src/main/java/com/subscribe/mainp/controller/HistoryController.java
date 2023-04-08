@@ -47,7 +47,7 @@ public class HistoryController {
         {
             return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
         }
-//        return ResponseEntity.of(Optional.of(h));
+
         return new ResponseEntity<>(h,HttpStatus.OK);
 
     }
